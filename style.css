@@ -1,0 +1,16 @@
+.slidev-layout h1 + p {
+	opacity: 1;
+}
+
+.flex-cols-2 {
+	display: flex;
+}
+
+.flex-cols-2 > div {
+	width: calc(50% - 3px);
+}
+
+.flex-align-stretch {
+	justify-content: space-between;
+	align-content: stretch;
+}
